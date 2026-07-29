@@ -1,0 +1,71 @@
+body {
+    background: linear-gradient( rgb(27, 57, 57),black);
+    color: white;
+    margin: 0px 40px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+
+#gen {
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+#pass {
+    color: rgb(86, 159, 86);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+button {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px 25px;
+    border-radius: 5px;
+    border: none;
+    background: linear-gradient(white , rgb(43, 193, 193)) ;
+    color:  rgb(3, 75, 3) ;
+}
+
+#genpass:hover {
+    background: rgb(43, 39, 39);
+    color: rgb(86, 159, 86);
+    transition: background 0.9s;
+     transition: color 0.9s;
+}
+
+.line {
+    border: none;
+    height: 0.1px;
+    background-color: gray;
+    width: 99%;
+    margin: 5px auto;
+}
+
+#genpass {
+    color: white;
+    background: rgb(86, 159, 86);
+    border: none;
+    border-radius: 5px;
+    padding: 8px 10px;
+}
+
+
+
+#sp1:hover {
+    color: orange;
+    transition: color 1s;
+}
+
+#sp2:hover {
+    color: green;
+    transition: color 0.5s;
+}
